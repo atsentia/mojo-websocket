@@ -1,0 +1,14 @@
+[project]
+name = "mojo-websocket"
+version = "0.1.0"
+description = "Pure Mojo WebSocket protocol library (RFC 6455)"
+authors = ["IDEA2CODE"]
+channels = ["conda-forge", "modular"]
+platforms = ["osx-arm64", "linux-64"]
+
+[tasks]
+build = "mojo build src -o lib/mojo_websocket.mojopkg"
+test = "mojo run tests/test_websocket.mojo"
+
+[dependencies]
+max = ">=24.6,<25"
