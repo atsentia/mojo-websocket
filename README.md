@@ -90,7 +90,7 @@ mojo run tests/test_websocket.mojo
 
 ## License
 
-MIT
+Apache 2.0
 
 ## Part of mojo-contrib
 
